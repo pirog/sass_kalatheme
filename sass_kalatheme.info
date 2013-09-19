@@ -1,0 +1,18 @@
+name = Sass Kalatheme
+description = A Kalatheme subtheme powered by Twitter Bootstrap & Compass.
+base theme = kalatheme
+version = 7.x-1.0
+core = 7.x
+
+regions[content] = Content
+
+stylesheets[all][] = css/main.css
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+plugins[panels][layouts] = layouts

@@ -1,0 +1,16 @@
+////////////////////////
+// Mixins make it easy to produce reusable CSS. You can put them here, or organize
+// them by category in smaller files as appropriate. To create a mixin:
+//
+// @mixin my-mixin($parameter-1, $parameter-2) {
+//   some-property: $parameter-1;
+//   padding: $parameter-2;
+// }
+//
+// // Then you can include its CSS somewhere.
+// .some-class {
+//   @include my-mixin(2em, 5%);
+// }
+//
+// More info: http://thesassway.com/intermediate/leveraging-sass-mixins-for-cleaner-code
+////////////////////////
