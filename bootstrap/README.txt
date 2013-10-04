@@ -3,7 +3,7 @@ What's going on in here:
 
 _variables.scss: This contains the variables that Bootstrap uses. You can
 customize these all you want, as they'll override the default values from
-sass-twitter-bootstrap.
+sass-bootstrap.
 
 bootstrap.scss: This imports most of the components Bootstrap provides. If there's
 something in Bootstrap you don't need for your project, you can comment out or

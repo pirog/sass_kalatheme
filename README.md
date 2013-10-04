@@ -15,7 +15,7 @@ To get started, follow these steps:
 * Download Sass Kalatheme to your sites/all/themes directory.
 * Rename its directory, .info file, etc. to your custom theme's name.
 * Download [Bootstrap 2.3.2](https://github.com/twbs/bootstrap/releases/tag/v2.3.2) to sites/all/libraries/bootstrap, if you haven't already.
-* Download [Sass Bootstrap 2.3.2](https://github.com/jlong/sass-bootstrap/releases/tag/v2.3.2) to sites/all/themes/[new-theme]/libraries, naming its directory "sass-twitter-bootstrap".
+* Download [Sass Bootstrap 2.3.2](https://github.com/jlong/sass-bootstrap/releases/tag/v2.3.2) to sites/all/themes/[new-theme]/libraries, naming its directory "sass-bootstrap".
 * In your new theme's bootstrap directory, customize the variables and imports as you want. See its README for more details.
 * Run "compass compile" to overwrite the css in sites/all/libraries/bootstrap/css with your customized Bootstrap styles.
 * Do your custom Sass styling work in the theme's scss folder.

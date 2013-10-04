@@ -12,10 +12,10 @@ output_style = :expanded # Can also be :nested or :compact or :compressed
 relative_assets = true # True to generate relative paths from CSS to assets.
 line_comments = true # Controls debugging comments that display the original location of your selectors.
 
-# Add Sass-Twitter-Bootstrap's components to our import path.
+# Add sass-bootstrap's components to our import path.
 # This allows you to import Bootstrap components like mixins into your custom Sass code.
 # For example: @import "mixins";
-add_import_path "libraries/sass-twitter-bootstrap/lib"
+add_import_path "libraries/sass-bootstrap/lib"
 
 ###########################
 # Required Compass Plugins:
