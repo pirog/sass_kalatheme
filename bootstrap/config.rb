@@ -6,7 +6,12 @@
 ###################
 # Bootstrap Settings:
 ###################
+
+require 'bootstrap-sass'
+
 css_dir = "../../../libraries/bootstrap/css" # Compiled CSS goes here.
+javascripts_dir = "../../../libraries/bootstrap/js" # Compiled CSS goes here.
+
 sass_dir = "."
 output_style = :expanded # Can also be :nested or :compact or :compressed
 relative_assets = true # True to generate relative paths from CSS to assets.
