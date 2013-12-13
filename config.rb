@@ -12,10 +12,14 @@ output_style = :expanded # Can also be :nested or :compact or :compressed
 relative_assets = true # True to generate relative paths from CSS to assets.
 line_comments = true # Controls debugging comments that display the original location of your selectors.
 
-# Add sass-bootstrap's components to our import path.
+# Add bootstrap-sass's components to our import path.
 # This allows you to import Bootstrap components like mixins into your custom Sass code.
-# For example: @import "mixins";
-add_import_path "libraries/sass-bootstrap/lib"
+# For example: @import "bootstrap/mixins";
+begin
+  require 'bootstrap-sass'
+rescue LoadError
+  add_import_path 'vendor/bootstrap-sass/vendor/assets/stylesheets'
+end
 
 ###########################
 # Required Compass Plugins:
