@@ -13,4 +13,4 @@ remove its line from this file to save on code size.
 To compile Bootstrap-Sass so Libraries can load it, run "compass compile" in
 this directory. It will save the output to sites/all/libraries/kalatheme_bootstrap/css.
 NOTE: Once you enable your custom theme, change "kalatheme_bootstrap" in the
-css_dir and javascripts_dir settings in config.rb.
+css_dir and javascripts_dir settings in config.rb to YOURTHEME_bootstrap.
