@@ -1,6 +1,9 @@
 Sass Kalatheme
 ==============
 
+# DEPRECATED
+Current version of Kalatheme is here: https://github.com/drupalprojects/kalatheme
+
 This is a [Kalatheme](https://drupal.org/project/kalatheme) subtheme template that integrates with Sass, Compass, and [Bootstrap Sass](https://github.com/thomas-mcdonald/bootstrap-sass). It is meant to serve as an example for starting a new subtheme to create a custom design. So you can download it and change the name, then get to work! The Sass starter files are based on our Sass/Compass jumpstart project, [Sassamuna](https://github.com/kalamuna/sassamuna).
 
 ## Note On Bootstrap Versions
